@@ -1,6 +1,6 @@
 var request = require('request');
 
-var url = 'http://api.openweathermap.org/data/2.5/weather?appid=eff74db66678068deef125febe148563&q=' + '' + '&units=imperial';
+var url = 'http://api.openweathermap.org/data/2.5/weather?appid=API_KEY_GOES_HERE&q=' + '' + '&units=imperial';
 
 request({
     url: url,
